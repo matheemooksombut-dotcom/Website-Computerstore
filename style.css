@@ -448,3 +448,132 @@ a:hover{
     transform: scale(1.2);
     transition: 3s;
 }
+
+.content-wrapper-about::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(https://www.wgu.edu/blog/2023/07/what-information-technology/_jcr_content/root/container/imageandtext.coreimg.85.800.jpeg/1701987570527/what-is-it.jpeg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(1.5px);
+    transform: scale(1.1); /* กันขอบเบลอ */
+    z-index: 1;
+}
+
+
+.content-wrapper-about{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    box-shadow: 3px 3px 4px black;
+}
+
+
+
+.content-wrapper-about .content2{
+    position: relative;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    padding-top: 200px;
+    padding-left: 50px;
+    text-align: center;
+    font-size: larger;
+    font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style: normal;
+}
+
+
+
+
+
+.content-wrapper-contract::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(https://img.freepik.com/free-photo/people-working-call-center_23-2149288184.jpg?semt=ais_hybrid&w=740&q=80);
+    background-size: cover;
+    background-position: center;
+    filter: blur(1.5px);
+    transform: scale(1.1); /* กันขอบเบลอ */
+    z-index: 1;
+}
+
+
+.content-wrapper-contract{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    box-shadow: 3px 3px 4px black;
+}
+
+
+
+.content-wrapper-contract .content3{
+    position: relative;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    padding-top: 200px;
+    padding-left: 50px;
+    text-align: center;
+    font-size: larger;
+    font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style: normal;
+}
+
+
+.about-box-2{
+    background-color: rgb(255, 255, 255);
+    color: var(--black);
+    border-radius: 50px;
+    padding: 50px;
+    display: flex;
+    padding-left: 100px;
+    
+}
+
+.img-box-about-2{
+    
+    margin-top: 30px;
+    left: 160px;
+    width: 300px;
+    height: 200px;
+    background-color: #333333;
+    border-radius: 30px;
+   
+}
+.img-box-about-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;  
+    
+    z-index: 2;
+    
+}
+.contacted{
+    display: flex;
+    column-gap: 50px;
+    justify-content: space-around;
+    a{
+        color: #333333;
+        text-decoration: none;
+    }
+    a:hover{
+        color: red;
+    }
+    li{
+        list-style: none;
+    }
+    
+}
+
+
+
+
