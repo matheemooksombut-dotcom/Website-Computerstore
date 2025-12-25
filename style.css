@@ -575,5 +575,13 @@ a:hover{
 }
 
 
-
+.about-bg{
+    padding-top: 100px;
+    padding-left: 50px;
+    background-color: black;
+    column-gap: 60px;
+    height: 200px;
+    color: aliceblue;
+    display: flex;
+}
 
