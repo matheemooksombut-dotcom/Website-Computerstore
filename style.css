@@ -585,3 +585,56 @@ a:hover{
     display: flex;
 }
 
+/* animation */
+
+.content-side{
+    animation: scrolling linear;
+    animation-timeline:view() ;
+}
+
+@keyframes  scrolling{
+    from{
+        opacity: 1;
+        scale: 0.5;
+        
+
+    }to{
+        opacity: 1;
+        scale: 1;
+        width: 100%;
+    }
+}
+.cotent-item-wrapper{
+    animation: fade;
+    animation-duration: 3s;
+}
+.content-wrapper-about{
+     animation: fade;
+    animation-duration: 3s;
+}
+.content-wrapper{
+     animation: fade;
+    animation-duration: 3s;
+}
+.content-wrapper-contract{
+       animation: fade;
+    animation-duration: 3s;
+}
+.img-box-about-2{
+     animation: fade;
+    animation-duration: 3s;
+}
+@keyframes  fade{
+    from{
+       opacity: 0;
+        
+
+    }to{
+        opacity: 1;
+        
+    }
+}
+.logo:hover{
+    transition: 3s;
+    transform: rotateY(360deg);
+}
